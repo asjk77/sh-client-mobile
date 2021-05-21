@@ -1,0 +1,3 @@
+[submodule "lib/sh-server-api"]
+	path = lib/sh-server-api
+	url = https://github.com/asjk77/sh-server-api.git
