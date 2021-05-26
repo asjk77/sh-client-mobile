@@ -8,3 +8,16 @@
 
 // Description : AccountAction을 정의합니다.
 
+import { SET_ACCOUNT } from "./ActionTypes"
+
+export const setAccount = ( email , passwd ) => ({
+    type: SET_ACCOUNT,
+    payload: {
+        email,
+        passwd
+    }
+})
+
+export const unSetAccount = () => ({
+    type: UNSET_ACCOUNT
+})

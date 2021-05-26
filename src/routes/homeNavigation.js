@@ -18,10 +18,11 @@ import FeatherIcons from "react-native-vector-icons/Feather";
 import SimpleLineIcons from "react-native-vector-icons/SimpleLineIcons";
 
 import {
-    SETTINGS_POST_SCREEN_NAME,
+    SETTINGS_NAVIGATION_NAME,
     SHOW_POST_SCREEN_NAME,
     WRITE_POST_SCREEN_NAME
 } from "../utils/NavigationNames";
+import SettingNavigation from './settingNavigation';
 
 const Tab = createBottomTabNavigator();
 
@@ -46,8 +47,8 @@ const HomeNavigation = () => {
             }}
             />
         <Tab.Screen
-            name={SETTINGS_POST_SCREEN_NAME}
-            component={SettingsScreen}
+            name={SETTINGS_NAVIGATION_NAME}
+            component={SettingNavigation}
             options={{
                 tabBarLabel: '설정',
                 tabBarIcon: ( {color, size} ) => ( <MaterialIcons name="settings" color={color} size={size} />)

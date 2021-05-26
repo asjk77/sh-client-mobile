@@ -8,20 +8,22 @@
 
 // Description : 기본 app 의 reducer 입니다.
 
+import {
+  SET_ACCOUNT,
+  UNSET_ACCOUNT
+} from "../actions/ActionTypes";
+
+
 const reducerInit =  {
-    account : {
-      user: undefined, 
-      nickname: undefined,
-      rank: undefined,
-    },
-    init: {
-      
-    }
+  account: null
 }
 const AppReducer = ( state = reducerInit, action ) => {
     const { type } = action;
     switch ( type ) {
-
+      case SET_ACCOUNT:
+        return {... state, account : action.payload };
+      case UNSET_ACCOUNT:
+        return {... state, account : null };
       default:
         return {...state}; 
     }

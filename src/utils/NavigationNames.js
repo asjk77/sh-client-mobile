@@ -10,12 +10,18 @@
 
 export const INIT_SCREEN_NAME = 'INIT';
 
+// authNavigation
 export const AUTH_NAVIGATION_NAME = 'AUTH_NAV';
 export const LOGIN_SCREEN_NAME = 'LOGIN'; // 로그인
 export const REGISTER_SCREEN_NAME = 'REGISTER'; // 회원가입
 
 
+// home Navigation
 export const HOME_NAVIGATION_NAME = 'HOM_NAV';
 export const SHOW_POST_SCREEN_NAME = 'SHOW_POST';
 export const WRITE_POST_SCREEN_NAME = 'WRITE_POST'; // 글작성
-export const SETTINGS_POST_SCREEN_NAME = 'SETTINGS';
+
+// setting Navigation
+export const SETTINGS_NAVIGATION_NAME = 'SETTINGS_NAV';
+export const ABOUT_APP_SCREEN_NAME = 'ABOUT_APP';
+export const ACCOUNT_INFO_SCREEN_NAME= 'ACCOUNT_INFO';

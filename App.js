@@ -6,7 +6,7 @@ import AppStore from './src/reducer/store';
 import RootNavigation from "./src/routes/rootNavigation";
 
 /**
- * RootReactNativeComponent
+ * RootEntry
  */
 function App() {
   return (

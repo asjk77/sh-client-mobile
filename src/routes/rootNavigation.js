@@ -19,7 +19,6 @@ import {
     HOME_NAVIGATION_NAME
 
 } from "../utils/NavigationNames";
-import { SafeAreaView } from 'react-native';
 
 const Stack = createStackNavigator();
 
